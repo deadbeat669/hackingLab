@@ -1,12 +1,15 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "GEN-UNIQUE"
     },
-    "variables": {
+    "adminPassword": {
+      "value": "GEN-PASSWORD"
     },
-    "resources": [
-    ],
-    "outputs": {
+    "dnsLabelPrefix": {
+      "value": "GEN-UNIQUE"
     }
   }
+}
